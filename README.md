@@ -1,8 +1,8 @@
 # Adonuxt5 | AdonisJS5 + NuxtJS2
 ## adonis5-nuxt ( Typescript )
 ## Framework used
-* AdonisJS 5 [ <a href="https://docs.adonisjs.com/guides/introduction%22%3Edocument</a> ]
-* NuxtJS 2 [ <a href="https://nuxtjs.org/docs/2.x/get-started/installation%22%3Edocument</a> ]
+* AdonisJS 5 [ <a href="https://docs.adonisjs.com/guides/introduction%22%3Edocument">documentation</a> ]
+* NuxtJS 2 [ <a href="https://nuxtjs.org/docs/2.x/get-started/installation%22%3Edocument">documentation</a> ]
 ## Installation
 1. Clone repository https://github.com/bossNzXD/Adonuxt5
 2. Open a terminal in the folder.

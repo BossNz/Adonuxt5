@@ -1,6 +1,7 @@
 import { Nuxt, Builder } from 'nuxt'
 import Config from '@ioc:Adonis/Core/Config'
 import Application from '@ioc:Adonis/Core/Application'
+import fs from 'fs'
 
 export default class NuxtProvider {
   // eslint-disable-next-line no-useless-constructor
@@ -26,6 +27,7 @@ export default class NuxtProvider {
 
   public async boot () {
     if (!this.isAceCommand()) {
+      fs.rmdirSync('.nuxt', { recursive: true });
       const nuxt = Application.container.use('Service/Nuxt')
       if (nuxt.options.dev) {
         await new Builder(nuxt).build()

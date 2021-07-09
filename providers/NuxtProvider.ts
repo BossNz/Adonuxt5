@@ -29,7 +29,7 @@ export default class NuxtProvider {
     if (!this.isAceCommand()) {
       const nuxt = Application.container.use('Service/Nuxt')
       if (nuxt.options.dev) {
-        fs.rmdirSync('.nuxt');
+        fs.rmdirSync('.nuxt',{recursive:true});
         await new Builder(nuxt).build()
       } else {
         await nuxt.ready()

@@ -1,5 +1,5 @@
 # Adonuxt5 | AdonisJS5 + NuxtJS2
-## adonis5-nuxt ( Typescript )
+## adonis5-nuxt ( Fullstack Typescript! )
 ## Framework used
 * AdonisJS 5 [ <a href="https://docs.adonisjs.com/guides/introduction">documentation</a> ]
 * NuxtJS 2 [ <a href="https://nuxtjs.org/docs/2.x/get-started/installation">documentation</a> ]
